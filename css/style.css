@@ -239,20 +239,22 @@ li img {
 
 @media all and (-webkit-min-device-pixel-ratio:1),all and (min--moz-device-pixel-ratio:1),all and (-o-min-device-pixel-ratio:1),all and (min-device-pixel-ratio:1),all and (min-resolution:96dpi) {
 	.emoji {
-		background: transparent url(../images/sprite.png) 0 0 no-repeat
+		background: transparent url(../images/sprite.png) 0 0 no-repeat;
+		background-size: cover;
 	}
 }
 
 @media all and (-webkit-min-device-pixel-ratio:1.5),all and (-o-min-device-pixel-ratio:3/2),all and (min-device-pixel-ratio:1.5),all and (min-resolution:144dpi) {
 	.emoji {
 		background: transparent url(../images/sprite.png) 0 0 no-repeat;
-		background-size: 28064px 22px
+		background-size: 28064px 22px;
 	}
 }
 
 @-moz-document url-prefix() {
 	.emoji {
 		background: transparent url(../images/sprite.png) 0 0 no-repeat
+		background-size: cover;
 	}
 }
 
